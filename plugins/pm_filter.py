@@ -2037,22 +2037,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
  
-    elif query.from_user.id in ADMINS:
-        buttons = [[
-            InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ADMIN_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )     
-       return await query.answer(f"Hᴇʏ, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+    
+elif query.from_user.id in ADMINS:
+    buttons = [[
+        InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
+    ]]
+    # Use await properly to edit the message media
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS))
+    )
+    
+    # Create the reply markup with buttons
+    reply_markup = InlineKeyboardMarkup(buttons)
+    
+    # Edit the text of the message with the new content and markup
+    await query.message.edit_text(
+        text=script.ADMIN_TXT,
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML
+    )     
+     
+    # Show alert message to the admin
+    return await query.answer(
+        text="Hᴇʏ, Yᴏᴜʀ Rᴇᴏ‌ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", 
+        show_alert=True
+    )
     
     elif query.data == "store_file":
         buttons = [[
