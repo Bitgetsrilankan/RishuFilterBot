@@ -2038,7 +2038,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
  
     
-elif query.from_user.id in ADMINS:
+elif query.from_user.id in ADMINS == "admin":
     buttons = [[
         InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
     ]]
