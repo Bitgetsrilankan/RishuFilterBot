@@ -1918,8 +1918,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Oɴʟʏ 🔧', callback_data='admin'),
-             await query.answer(f"Hᴇʏ, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Oɴʟʏ 🔧', callback_data='admin')
          ], [ 
              InlineKeyboardButton('Rᴇɴᴀᴍᴇ', callback_data='r_txt'),   
              InlineKeyboardButton('Sᴛʀᴇᴀᴍ', callback_data='s_txt') 
@@ -2037,7 +2036,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "admin":
+ 
+    elif query.from_user.id in ADMINS:
         buttons = [[
             InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -2051,7 +2051,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
+        )     
+       return await query.answer(f"Hᴇʏ, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
     
     elif query.data == "store_file":
         buttons = [[
