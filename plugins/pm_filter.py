@@ -2036,34 +2036,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
- 
-    
-elif query.from_user.id in ADMINS == "admin":
-    buttons = [[
-        InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
-    ]]
-    # Use await properly to edit the message media
-    await client.edit_message_media(
-        query.message.chat.id, 
-        query.message.id, 
-        InputMediaPhoto(random.choice(PICS))
-    )
-    
-    # Create the reply markup with buttons
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
-    # Edit the text of the message with the new content and markup
-    await query.message.edit_text(
-        text=script.ADMIN_TXT,
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )     
+ elif query.data.startswith("admin"):
+        ident, from_user = query.data.split("#")
+        btn = [[
+            InlineKeyboardButton("🟢 Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ 🟢", callback_data=f"alalert#{from_user}")
+        ]]
+    if query.from_user.id in ADMINS:
+            user = await client.get_users(from_user)
+            reply_markup = InlineKeyboardMarkup(btn)
+            content = query.message.text
+            await query.message.edit_text(f"<b><strike>hello</strike></b>")
+            await query.message.edit_reply_markup(reply_markup)
+            await query.answer("Sᴇᴛ Tᴏ Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !")
+
      
-    # Show alert message to the admin
-    return await query.answer(
-        text="Hᴇʏ, Yᴏᴜʀ Rᴇᴏ‌ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", 
-        show_alert=True
-    )
     
     elif query.data == "store_file":
         buttons = [[
@@ -2115,7 +2101,7 @@ elif query.from_user.id in ADMINS == "admin":
     
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='admin')
+            InlineKeyboardButton('🔙 Bᴀᴄᴋ', callback_data='help')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
