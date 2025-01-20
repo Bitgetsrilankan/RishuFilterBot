@@ -18,6 +18,7 @@ from database.connections_mdb import mydb, active_connection, all_connections, d
 from database.gfilters_mdb import find_gfilter, get_gfilters, del_allg
 from urllib.parse import quote_plus
 from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
+from info import ADMINS
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
@@ -1917,25 +1918,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Oɴʟʏ 🔧', callback_data='admin'),
+             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Oɴʟʏ 🔧', callback_data='admin') & filters.user(ADMINS))
+             await query.answer(f"Hᴇʏ, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
          ], [ 
-             InlineKeyboardButton('🔡 Rᴇɴᴀᴍᴇ', callback_data='r_txt'),   
-             InlineKeyboardButton('🌱 Sᴛʀᴇᴀᴍ/Dᴏᴡɴʟᴏᴀᴅ', callback_data='s_txt') 
+             InlineKeyboardButton('Rᴇɴᴀᴍᴇ', callback_data='r_txt'),   
+             InlineKeyboardButton('Sᴛʀᴇᴀᴍ', callback_data='s_txt') 
          ], [ 
-             InlineKeyboardButton('📁 Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file'),   
-             InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ', callback_data='tele') 
+             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file'),   
+             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct') 
          ], [ 
-             InlineKeyboardButton('🖇️ Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
-             InlineKeyboardButton('🎞️ Fɪʟᴛᴇʀꜱ', callback_data='filters')
-         ], [
-             InlineKeyboardButton('📺 Yᴛ-Dʟ', callback_data='ytdl'), 
-             InlineKeyboardButton('Sʜᴀʀᴇ Tᴇxᴛ', callback_data='share')
-         ], [
-             InlineKeyboardButton('🎵 Sᴏɴɢ', callback_data='song'),
-             InlineKeyboardButton('❄️ Exᴛʀᴀ', callback_data='extra')
-         ], [
-             InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ-Iᴅ', callback_data='sticker'),
-             InlineKeyboardButton('J-ꜱᴏɴ', callback_data='json')
+             InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', callback_data='filters'), 
+             InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra')
          ], [             
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
