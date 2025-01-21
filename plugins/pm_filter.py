@@ -2036,20 +2036,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
- elif query.data == "admin":
-        from_user = query.data
-        btn = [[
-            InlineKeyboardButton("🟢 Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ 🟢", callback_data=f"alalert#{from_user}")
+  elif query.data == "admin":
+        buttons = [[
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='help')
         ]]
-    if query.from_user.id in ADMINS:
-            user = await client.get_users(from_user)
-            reply_markup = InlineKeyboardMarkup(btn)
-            content = query.message.text
-            await query.message.edit_text(f"<b><strike>hello</strike></b>")
-            await query.message.edit_reply_markup(reply_markup)
-            await query.answer("Sᴇᴛ Tᴏ Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !")
-
-     
+     if query.from_user.id not in ADMINS:
+            return await query.answer("Sᴏʀʀʏ Tʜɪs Mᴇɴᴜ Oɴʟʏ Fᴏʀ Mʏ Aᴅᴍɪɴs ⚒️", show_alert=True)
+        await query.message.edit("Pʀᴏᴄᴇꜱꜱɪɴɢ Wᴀɪᴛ Fᴏʀ 15 ꜱᴇᴄ...")
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ADMIN_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+ 
     
     elif query.data == "store_file":
         buttons = [[
