@@ -1923,11 +1923,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('Rᴇɴᴀᴍᴇ', callback_data='r_txt'),   
              InlineKeyboardButton('Sᴛʀᴇᴀᴍ', callback_data='s_txt') 
          ], [ 
-             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file'),   
-             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct') 
+             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),   
+             InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', callback_data='filters') 
          ], [ 
-             InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', callback_data='filters'), 
-             InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra')
+             InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra'), 
+             InlineKeyboardButton('Sᴛᴀᴛɪsᴛɪᴄs', callback_data='stats')
          ], [             
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
