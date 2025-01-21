@@ -7,7 +7,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
-    HELP_TXT = """<b><blockquote>Hᴇʀᴇ's Mʏ Hᴇʟᴘ Mᴇɴᴜ</blockquote></b>"""
+    HELP_TXT = """<b>Hᴇʀᴇ's Mʏ Hᴇʟᴘ Mᴇɴᴜ</b>"""
 
     ABOUT_TXT = """<b><blockquote>⍟───[ Mʏ Dᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
