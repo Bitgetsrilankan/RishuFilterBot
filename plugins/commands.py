@@ -24,6 +24,24 @@ async def start(client, message):
         await message.react(emoji=random.choice(REACTIONS), big=True)
     except:
         pass
+
+   # Progress bar animation
+    baby = await message.reply_text("[□□□□□□□□□□] 0%")
+    progress = [
+        "[■□□□□□□□□□] 10%", "[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%",
+        "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%",
+        "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"
+    ]
+    
+    for step in progress:
+        await baby.edit_text(f"**{step}**")
+        await asyncio.sleep(random.uniform(0.2, 0.5))  # Randomized delay
+
+    # Final message with user mention
+    await baby.edit_text(f"**❖ Jᴀʏ sʜʀᴇᴇ ʀᴀᴍ 🚩, {message.from_user.mention} 🙏**")
+    await asyncio.sleep(1)
+    await baby.delete()
+
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
