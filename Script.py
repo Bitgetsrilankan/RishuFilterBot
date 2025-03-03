@@ -8,7 +8,7 @@ class script(object):
 » ✦ ɪηʟɪηє sєᴧꝛᴄʜ sυᴘᴘσꝛᴛєᴅ
 » ✦ ᴘꝛєϻɪυϻ ғєᴧᴛυꝛєs
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  »»   ˹ʀɪsʜυ ʙσᴛ˼ 
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  »»  <a href=https://t.me/ur_rishu_143>˹ʀɪsʜυ ʙσᴛ˼</a>  
 •──────────────────────•</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
@@ -24,8 +24,8 @@ class script(object):
 ‣ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ Dᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://koyeb.com'>ᴋᴏʏᴇʙ</a> 
-‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+‣ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
+‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ5.1 [ʀɪsʜᴜ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
@@ -54,9 +54,9 @@ Iғ {} Uɴɪǫᴜᴇ Usᴇʀ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ Wɪᴛʜ Yᴏᴜʀ Rᴇ
 
 Bᴜʏ Pᴀɪᴅ Pʟᴀɴ - /plan</b>"""
 
-    MANUELFILTER_TXT = """<b>Fɪʟᴛᴇʀꜱ</b>
+    MANUELFILTER_TXT = """<blockquote><b>Fɪʟᴛᴇʀꜱ</b></blockquote>
 
-Fɪʟᴛᴇʀ Iꜱ A Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Uꜱᴇʀꜱ Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇꜱ Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ Aɴᴅ I Wɪʟʟ Rᴇꜱᴘᴏɴᴅ Wʜᴇɴᴇᴠᴇʀ A Kᴇʏᴡᴏʀᴅ Iꜱ Fᴏᴜɴᴅ Iɴ Tʜᴇ Mᴇꜱꜱᴀɢᴇ.
+<b>Fɪʟᴛᴇʀ Iꜱ A Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Uꜱᴇʀꜱ Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇꜱ Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ Aɴᴅ I Wɪʟʟ Rᴇꜱᴘᴏɴᴅ Wʜᴇɴᴇᴠᴇʀ A Kᴇʏᴡᴏʀᴅ Iꜱ Fᴏᴜɴᴅ Iɴ Tʜᴇ Mᴇꜱꜱᴀɢᴇ.
 
 1. Tʜɪꜱ Bᴏᴛ Sʜᴏᴜʟᴅ Hᴀᴠᴇ Aᴅᴍɪɴ Pʀɪᴠɪʟᴇɢᴇ.
 2. Oɴʟʏ Aᴅᴍɪɴꜱ Cᴀɴ Aᴅᴅ Fɪʟᴛᴇʀꜱ Iɴ A Cʜᴀᴛ.
@@ -65,76 +65,76 @@ Fɪʟᴛᴇʀ Iꜱ A Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Uꜱᴇʀꜱ Cᴀɴ Sᴇᴛ A�
 • /filter - Aᴅᴅ A Fɪʟᴛᴇʀ Iɴ A Cʜᴀᴛ
 • /filters - Lɪꜱᴛ Aʟʟ Tʜᴇ Fɪʟᴛᴇʀꜱ Oꜰ A Cʜᴀᴛ
 • /del - Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪꜰɪᴄ Fɪʟᴛᴇʀ Iɴ A Cʜᴀᴛ
-• /delall - Dᴇʟᴇᴛᴇ Tʜᴇ Wʜᴏʟᴇ Fɪʟᴛᴇʀꜱ Iɴ A Cʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)"""
+• /delall - Dᴇʟᴇᴛᴇ Tʜᴇ Wʜᴏʟᴇ Fɪʟᴛᴇʀꜱ Iɴ A Cʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
 
     BUTTON_TXT = """<b>Bᴜᴛᴛᴏɴꜱ</b>
     
-Tʜɪꜱ Bᴏᴛ Sᴜᴘᴘᴏʀᴛꜱ Bᴏᴛʜ Uʀʟ Aɴᴅ Aʟᴇʀᴛ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴꜱ.
+<b>Tʜɪꜱ Bᴏᴛ Sᴜᴘᴘᴏʀᴛꜱ Bᴏᴛʜ Uʀʟ Aɴᴅ Aʟᴇʀᴛ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴꜱ.
 
 1. Tᴇʟᴇɢʀᴀᴍ Wɪʟʟ Nᴏᴛ Aʟʟᴏᴡꜱ Yᴏᴜ Tᴏ Sᴇɴᴅ Bᴜᴛᴛᴏɴꜱ Wɪᴛʜᴏᴜᴛ Aɴʏ Cᴏɴᴛᴇɴᴛ, Sᴏ Cᴏɴᴛᴇɴᴛ Iꜱ Mᴀɴᴅᴀᴛᴏʀʏ.
 2. Tʜɪꜱ Bᴏᴛ Sᴜᴘᴘᴏʀᴛꜱ Bᴜᴛᴛᴏɴꜱ Wɪᴛʜ Aɴʏ Tᴇʟᴇɢʀᴀᴍ Mᴇᴅɪᴀ Tʏᴘᴇ.
-3. Bᴜᴛᴛᴏɴꜱ Sʜᴏᴜʟᴅ Bᴇ Pʀᴏᴘᴇʀʟʏ Pᴀʀꜱᴇᴅ Aꜱ Mᴀʀᴋᴅᴏᴡɴ Fᴏʀᴍᴀᴛ.
+3. Bᴜᴛᴛᴏɴꜱ Sʜᴏᴜʟᴅ Bᴇ Pʀᴏᴘᴇʀʟʏ Pᴀʀꜱᴇᴅ Aꜱ Mᴀʀᴋᴅᴏᴡɴ Fᴏʀᴍᴀᴛ.</b>
 
 <b>Uʀʟ Bᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/backupredirect/3)</code>
+<code>[Button Text](buttonurl:https://t.me/ur_rishu_143)</code>
 <b>Aʟᴇʀᴛ Bᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:Tʜɪꜱ Iꜱ Aɴ Aʟᴇʀᴛ Mᴇꜱꜱᴀɢᴇ)</code>"""
 
-    AUTOFILTER_TXT = """<b>Aᴜᴛᴏ Fɪʟᴛᴇʀ</b>
+    AUTOFILTER_TXT = """<blockquote><b>Aᴜᴛᴏ Fɪʟᴛᴇʀ</b></blockquote>
 
 <b>Fɪʟᴇ Iɴᴅᴇx</b>
-1. Mᴀᴋᴇ Mᴇ Tʜᴇ Aᴅᴍɪɴ Oꜰ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Iꜰ Iᴛ'ꜱ Pʀɪᴠᴀᴛᴇ.
+<b>1. Mᴀᴋᴇ Mᴇ Tʜᴇ Aᴅᴍɪɴ Oꜰ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Iꜰ Iᴛ'ꜱ Pʀɪᴠᴀᴛᴇ.
 2. Nᴀᴋᴇ Sᴜʀᴇ Tʜᴀᴛ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Dᴏᴇꜱ Nᴏᴛ Cᴏɴᴛᴀɪɴꜱ Cᴀᴍʀɪᴘꜱ, Pᴏʀɴ Aɴᴅ Fᴀᴋᴇ Fɪʟᴇꜱ.
 3. Fᴏʀᴡᴀʀᴅ Tʜᴇ Lᴀꜱᴛ Mᴇꜱꜱᴀɢᴇ Tᴏ Mᴇ Wɪᴛʜ Qᴜᴏᴛᴇꜱ. I'ʟʟ Aᴅᴅ Aʟʟ Tʜᴇ Fɪʟᴇꜱ Iɴ Tʜᴀᴛ Cʜᴀɴɴᴇʟ Tᴏ Mʏ Dʙ.
 
-<b>Aᴜᴛᴏ Fɪʟᴛᴇʀ</b>
+<blockquote>Aᴜᴛᴏ Fɪʟᴛᴇʀ</blockquote>
 1. Aᴅᴅ Tʜᴇ Bᴏᴛ As Aᴅᴍɪɴ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ.
 2. Usᴇ /connect Aɴᴅ Cᴏɴɴᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ Tᴏ Tʜᴇ Bᴏᴛ.
-3. Usᴇ /settings Oɴ Bᴏᴛ's PM Aɴᴅ Tᴜʀɴ Oɴ Aᴜᴛᴏ Fɪʟᴛᴇʀ Oɴ Tʜᴇ Sᴇᴛᴛɪɴɢs Mᴇɴᴜ."""
+3. Usᴇ /settings Oɴ Bᴏᴛ's PM Aɴᴅ Tᴜʀɴ Oɴ Aᴜᴛᴏ Fɪʟᴛᴇʀ Oɴ Tʜᴇ Sᴇᴛᴛɪɴɢs Mᴇɴᴜ.</b>"""
 
     CONNECTION_TXT = """<b>Cᴏɴɴᴇᴄᴛɪᴏɴꜱ</b>
 
-- Uꜱᴇᴅ Tᴏ Cᴏɴɴᴇᴄᴛ Bᴏᴛ Tᴏ Pᴍ Fᴏʀ Mᴀɴᴀɢɪɴɢ Fɪʟᴛᴇʀꜱ.
+<b>- Uꜱᴇᴅ Tᴏ Cᴏɴɴᴇᴄᴛ Bᴏᴛ Tᴏ Pᴍ Fᴏʀ Mᴀɴᴀɢɪɴɢ Fɪʟᴛᴇʀꜱ.
 - Iᴛ Hᴇʟᴘꜱ Tᴏ Aᴠᴏɪᴅ Sᴘᴀᴍᴍɪɴɢ Iɴ Gʀᴏᴜᴘꜱ.
 
 1. Oɴʟʏ Aᴅᴍɪɴꜱ Cᴀɴ Aᴅᴅ A Cᴏɴɴᴇᴄᴛɪᴏɴ.
 2. Sᴇɴᴅ /ᴄᴏɴɴᴇᴄᴛ Fᴏʀ Cᴏɴɴᴇᴄᴛɪɴɢ Mᴇ Tᴏ Yᴏᴜʀ Pᴍ.
 
-• /connect  - Cᴏɴɴᴇᴄᴛ A Pᴀʀᴛɪᴄᴜʟᴀʀ Cʜᴀᴛ Tᴏ Yᴏᴜʀ Pᴍ
-• /disconnect  - Dɪꜱᴄᴏɴɴᴇᴄᴛ Fʀᴏᴍ A Cʜᴀᴛ
-• /connections - Lɪꜱᴛ Aʟʟ Yᴏᴜʀ Cᴏɴɴᴇᴄᴛɪᴏɴꜱ"""
+● /connect  - Cᴏɴɴᴇᴄᴛ A Pᴀʀᴛɪᴄᴜʟᴀʀ Cʜᴀᴛ Tᴏ Yᴏᴜʀ Pᴍ
+● /disconnect  - Dɪꜱᴄᴏɴɴᴇᴄᴛ Fʀᴏᴍ A Cʜᴀᴛ
+● /connections - Lɪꜱᴛ Aʟʟ Yᴏᴜʀ Cᴏɴɴᴇᴄᴛɪᴏɴꜱ</b>"""
 
     EXTRAMOD_TXT = """<b>Exᴛʀᴀ Mᴏᴅᴜʟᴇs</b>
  
-• /id - Gᴇᴛ Iᴅ Oꜰ A Sᴘᴇᴄɪꜰɪᴇᴅ Uꜱᴇʀ.
-• /info  - Gᴇᴛ Iɴꜰᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ A Uꜱᴇʀ.
-• /telegraph - Sᴇɴᴅ Aɴʏ Vɪᴅᴇᴏ Oʀ Pʜᴏᴛᴏ Uɴᴅᴇʀ 5ᴍʙ I Gɪᴠᴇ Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ.
-• /tts - Tᴇxᴛ Tᴏ Vᴏɪᴄᴇ Cᴏɴᴠᴇʀᴛᴇʀ.
-./font - Sᴛʏʟɪsʜ Aɴᴅ Cᴏᴏʟ Tᴇxᴛ Gᴇɴᴇʀᴀᴛᴏʀ."""
+<b>● /id - Gᴇᴛ Iᴅ Oꜰ A Sᴘᴇᴄɪꜰɪᴇᴅ Uꜱᴇʀ.
+● /info  - Gᴇᴛ Iɴꜰᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ A Uꜱᴇʀ.
+● /telegraph - Sᴇɴᴅ Aɴʏ Vɪᴅᴇᴏ Oʀ Pʜᴏᴛᴏ Uɴᴅᴇʀ 5ᴍʙ I Gɪᴠᴇ Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ.
+● /tts - Tᴇxᴛ Tᴏ Vᴏɪᴄᴇ Cᴏɴᴠᴇʀᴛᴇʀ.
+● /font - Sᴛʏʟɪsʜ Aɴᴅ Cᴏᴏʟ Tᴇxᴛ Gᴇɴᴇʀᴀᴛᴏʀ.</b>"""
 
 
-    ADMIN_TXT = """<b>Aᴅᴍɪɴ Mᴏᴅᴇ</b>
+    ADMIN_TXT = """<blockquote><b>Aᴅᴍɪɴ Mᴏᴅᴇ</b></blockquote>
     
-Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
+<b>Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
-• /logs - Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴄᴇɴᴛ Eʀʀᴏʀꜱ.
-• /delete - Tᴏ Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪꜰɪᴄ Fɪʟᴇ Fʀᴏᴍ Dʙ.
-• /users - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Mʏ Uꜱᴇʀꜱ Aɴᴅ Iᴅꜱ.
-• /chats - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Mʏ Cʜᴀᴛꜱ Aɴᴅ Iᴅꜱ.
-• /leave  - Tᴏ Lᴇᴀᴠᴇ Fʀᴏᴍ A Cʜᴀᴛ.
-• /disable  -  Tᴏ Dɪꜱᴀʙʟᴇ A Cʜᴀᴛ.
-• /ban  - Tᴏ Bᴀɴ A Uꜱᴇʀ.
-• /unban  - Tᴏ Uɴʙᴀɴ A Uꜱᴇʀ.
-• /channel - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Tᴏᴛᴀʟ Cᴏɴɴᴇᴄᴛᴇᴅ Cʜᴀɴɴᴇʟꜱ.
-• /broadcast - Tᴏ Bʀᴏᴀᴅᴄᴀꜱᴛ A Mᴇꜱꜱᴀɢᴇ Tᴏ Aʟʟ Uꜱᴇʀꜱ.
-• /grp_broadcast - Tᴏ Bʀᴏᴀᴅᴄᴀsᴛ A Mᴇssᴀɢᴇ Tᴏ Aʟʟ Cᴏɴɴᴇᴄᴛᴇᴅ Gʀᴏᴜᴘs.
-• /gfilter - Tᴏ Aᴅᴅ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
-• /gfilters - Tᴏ Vɪᴇᴡ Lɪsᴛ Oғ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
-• /delg - Tᴏ Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪғɪᴄ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
-• /delallg - Tᴏ Dᴇʟᴇᴛᴇ Aʟʟ Gғɪʟᴛᴇʀs Fʀᴏᴍ Tʜᴇ Bᴏᴛ's Dᴀᴛᴀʙᴀsᴇ.
-• /deletefiles - Tᴏ Dᴇʟᴇᴛᴇ CᴀᴍRɪᴘ Aɴᴅ PʀᴇDVD Fɪʟᴇs Fʀᴏᴍ Tʜᴇ Bᴏᴛ's Dᴀᴛᴀʙᴀsᴇ."""
+● /logs - Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴄᴇɴᴛ Eʀʀᴏʀꜱ.
+● /delete - Tᴏ Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪꜰɪᴄ Fɪʟᴇ Fʀᴏᴍ Dʙ.
+● /users - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Mʏ Uꜱᴇʀꜱ Aɴᴅ Iᴅꜱ.
+● /chats - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Mʏ Cʜᴀᴛꜱ Aɴᴅ Iᴅꜱ.
+● /leave  - Tᴏ Lᴇᴀᴠᴇ Fʀᴏᴍ A Cʜᴀᴛ.
+● /disable  -  Tᴏ Dɪꜱᴀʙʟᴇ A Cʜᴀᴛ.
+● /ban  - Tᴏ Bᴀɴ A Uꜱᴇʀ.
+● /unban  - Tᴏ Uɴʙᴀɴ A Uꜱᴇʀ.
+● /channel - Tᴏ Gᴇᴛ Lɪꜱᴛ Oꜰ Tᴏᴛᴀʟ Cᴏɴɴᴇᴄᴛᴇᴅ Cʜᴀɴɴᴇʟꜱ.
+● /broadcast - Tᴏ Bʀᴏᴀᴅᴄᴀꜱᴛ A Mᴇꜱꜱᴀɢᴇ Tᴏ Aʟʟ Uꜱᴇʀꜱ.
+● /grp_broadcast - Tᴏ Bʀᴏᴀᴅᴄᴀsᴛ A Mᴇssᴀɢᴇ Tᴏ Aʟʟ Cᴏɴɴᴇᴄᴛᴇᴅ Gʀᴏᴜᴘs.
+● /gfilter - Tᴏ Aᴅᴅ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
+● /gfilters - Tᴏ Vɪᴇᴡ Lɪsᴛ Oғ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
+● /delg - Tᴏ Dᴇʟᴇᴛᴇ A Sᴘᴇᴄɪғɪᴄ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
+● /delallg - Tᴏ Dᴇʟᴇᴛᴇ Aʟʟ Gғɪʟᴛᴇʀs Fʀᴏᴍ Tʜᴇ Bᴏᴛ's Dᴀᴛᴀʙᴀsᴇ.
+● /deletefiles - Tᴏ Dᴇʟᴇᴛᴇ CᴀᴍRɪᴘ Aɴᴅ PʀᴇDVD Fɪʟᴇs Fʀᴏᴍ Tʜᴇ Bᴏᴛ's Dᴀᴛᴀʙᴀsᴇ.</b>"""
 
     SEC_STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
@@ -259,10 +259,10 @@ Requested by : {message.from_user.mention}</b>"""
 <b>Wᴇʟᴄᴏᴍᴇ Tᴏ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs. Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs Aʀᴇ Tʜᴇ Fɪʟᴛᴇʀs Sᴇᴛ Bʏ Bᴏᴛ Aᴅᴍɪɴs Wʜɪᴄʜ Wɪʟʟ Wᴏʀᴋ Oɴ Aʟʟ Gʀᴏᴜᴘs.</b>
     
 Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs:
-• /gfilter - Tᴏ Cʀᴇᴀᴛᴇ A Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
-• /gfilters - Tᴏ Vɪᴇᴡ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
-• /delg - Tᴏ Dᴇʟᴇᴛᴇ A Pᴀʀᴛɪᴄᴜʟᴀʀ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
-• /delallg - Tᴏ Dᴇʟᴇᴛᴇ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀꜱ."""
+● /gfilter - Tᴏ Cʀᴇᴀᴛᴇ A Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
+● /gfilters - Tᴏ Vɪᴇᴡ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs.
+● /delg - Tᴏ Dᴇʟᴇᴛᴇ A Pᴀʀᴛɪᴄᴜʟᴀʀ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ.
+● /delallg - Tᴏ Dᴇʟᴇᴛᴇ Aʟʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀꜱ."""
     
     FILE_STORE_TXT = """
 <b>Fɪʟᴇ sᴛᴏʀᴇ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀ sɪɴɢʟᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</b>
@@ -331,7 +331,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
 ┣⪼ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━➣ """
+╰━━━━━━━━━━━━━━━━━━━━➣ """
   
     ABOOK_TXT = """<b>ʜᴇʟᴩ : ᴀᴜᴅɪᴏʙᴏᴏᴋ 
   
@@ -503,7 +503,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this bot to your group
 
  Step 2: Add your website and API
 
@@ -611,7 +611,7 @@ Also your tutorial will be Added Your Group..."""
 
  کیسے اور کیا کرنا ہے۔
 
- مرحلہ 1: اپنے گروپ میں اس VJ-FILTER-BOT بوٹ کا انتظام کریں۔
+ مرحلہ 1: اپنے گروپ میں اس  بوٹ کا انتظام کریں۔
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
@@ -638,7 +638,7 @@ Also your tutorial will be Added Your Group..."""
 
  કેવી રીતે અને શું કરવું
 
- પગલું 1: તમારા જૂથમાં આ VJ-FILTER-BOT બોટનું સંચાલન કરો
+ પગલું 1: તમારા જૂથમાં આ  બોટનું સંચાલન કરો
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
@@ -690,7 +690,7 @@ Also your tutorial will be Added Your Group..."""
 
  কিভাবে এবং কি করতে হবে
 
- ধাপ 1: আপনার গ্রুপে এই VJ-FILTER-BOT বট পরিচালনা করুন
+ ধাপ 1: আপনার গ্রুপে এই বট পরিচালনা করুন
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
@@ -705,28 +705,28 @@ Also your tutorial will be Added Your Group..."""
 এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
 
     RENAME_TXT = """
-🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
+<blockquote>🌌 <b><u>HOW TO SET THUMBNAIL</u></b></blockquote>
   
-• /set_thumb - Sᴇɴᴅ Aɴʏ Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ
-• /del_thumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴᴀɪʟ
-• /view_thumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ.
+<b>● /set_thumb - Sᴇɴᴅ Aɴʏ Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ
+● /del_thumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴᴀɪʟ
+● /view_thumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Aɴᴅ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ.</b>
 
-📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
+<blockquote>📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b></blockquote>
 
-• /set_caption - Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-• /see_caption - Sᴇᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-• /del_caption - Dᴇʟᴇᴛᴇ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+<b>● /set_caption - Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+● /see_caption - Sᴇᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+● /del_caption - Dᴇʟᴇᴛᴇ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
 
 Exᴀᴍᴘʟᴇ: /set_caption 📕 File Name: {filename}
 💾 Size: {filesize}
-⏰ Duration: {duration}
+⏰ Duration: {duration}</b>
 
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
+<blockquote>✏️ <b><u>HOW TO RENAME A FILE</u></b></blockquote>
 
-• /rename - Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴘᴛɪᴏɴ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ 
-Tʜᴇɴ Sᴇʟᴇᴄᴛ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ 👈.
+<b>● /rename - Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴘᴛɪᴏɴ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ 
+Tʜᴇɴ Sᴇʟᴇᴄᴛ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ 👈.</b>
 """
 
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
 
-• /stream - Gᴇᴛ Sᴛʀᴇᴀᴍᴀʙʟᴇ Aɴᴅ Dᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ Lɪɴᴋ Oғ Aɴʏ Fɪʟᴇ</b>"""
+● /stream - Gᴇᴛ Sᴛʀᴇᴀᴍᴀʙʟᴇ Aɴᴅ Dᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ Lɪɴᴋ Oғ Aɴʏ Fɪʟᴇ</b>"""
