@@ -1,6 +1,4 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 import os, logging, string, asyncio, time, re, ast, random, math, pytz, pyrogram
 from datetime import datetime, timedelta, date, time
@@ -1918,18 +1916,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Oɴʟʏ 🔧', callback_data='admin')
+             InlineKeyboardButton('˹ ᴧᴅᴍɪɴ ˼', callback_data='admin')
          ], [ 
-             InlineKeyboardButton('Rᴇɴᴀᴍᴇ', callback_data='r_txt'),   
-             InlineKeyboardButton('Sᴛʀᴇᴀᴍ', callback_data='s_txt') 
+             InlineKeyboardButton('˹ ʀᴇɴᴀᴍᴇ ˼', callback_data='r_txt'),   
+             InlineKeyboardButton('˹ sᴛʀᴇᴀᴍ ˼', callback_data='s_txt') 
          ], [ 
-             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),   
-             InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', callback_data='filters') 
+             InlineKeyboardButton('˹ ᴄᴏɴɴᴇᴄᴛ ˼', callback_data='coct'),   
+             InlineKeyboardButton('˹ ғɪʟᴛᴇʀ ˼', callback_data='filters') 
          ], [ 
-             InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra'), 
-             InlineKeyboardButton('Sᴛᴀᴛɪsᴛɪᴄs', callback_data='stats')
+             InlineKeyboardButton('˹ ᴇxᴛʀᴀ ˼', callback_data='extra'), 
+             InlineKeyboardButton('˹ sᴛᴀᴛs ˼', callback_data='stats')
          ], [             
-             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
+             InlineKeyboardButton('⌯ ʜᴏᴍᴇ ⌯', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1944,10 +1942,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔖 υᴘᴅᴧᴛєs 🔖', url="https://t.me/nenobots")
+            InlineKeyboardButton('˹ υᴘᴅᴧᴛєs ˼', url="https://t.me/nenobots")
         ],[
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('⌯ ʜᴏᴍᴇ ⌯', callback_data='start'),
+            InlineKeyboardButton('⌯ ᴄʟσsє ⌯', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2211,7 +2209,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
         btn = [[
             InlineKeyboardButton(" ⌯ ʙᴧᴄᴋ ⌯", callback_data="help"),
-            InlineKeyboardButton("📞 Cᴏɴᴛᴀᴄᴛ", url="telegram.me/nenobots")
+            InlineKeyboardButton("⌯ ᴄᴏɴᴛᴀᴄᴛ ⌯", url="telegram.me/nenobots")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2252,7 +2250,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
         btn = [[
             InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data="help"),
-            InlineKeyboardButton("📞 Cᴏɴᴛᴀᴄᴛ", url="telegram.me/nenobots")
+            InlineKeyboardButton(" ⌯ ᴄᴏɴᴛᴀᴄᴛ ⌯", url="telegram.me/nenobots")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
