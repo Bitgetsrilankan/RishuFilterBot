@@ -8,7 +8,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'VenomMWBot')
+SESSION = environ.get('SESSION', 'Rishu_movie_bot')
 API_ID = int(environ.get('API_ID', '20574855'))
 API_HASH = environ.get('API_HASH', 'e06686961495ec9b96d9b47e2d92c214')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
