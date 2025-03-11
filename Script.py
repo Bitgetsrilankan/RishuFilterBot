@@ -8,7 +8,7 @@ class script(object):
 » ✦ ɪηʟɪηє sєᴧꝛᴄʜ sυᴘᴘσꝛᴛєᴅ
 » ✦ ᴘꝛєϻɪυϻ ғєᴧᴛυꝛєs
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  »»  <a href=https://t.me/ur_rishu_143>˹ʀɪsʜυ ʙσᴛ˼</a>  
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  »»  <a href=https://t.me/Cader_r>ʙᴊꜱ ᴄᴏᴅᴇʀ</a>  
 •──────────────────────•</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
