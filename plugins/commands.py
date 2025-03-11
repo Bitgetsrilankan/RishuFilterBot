@@ -38,7 +38,7 @@ async def start(client, message):
         await asyncio.sleep(random.uniform(0.2, 0.5))  # Randomized delay
 
     # Final message with user mention
-    await baby.edit_text(f"**❖ Jᴀʏ sʜʀᴇᴇ ʀᴀᴍ 🚩, {message.from_user.mention} 🙏**")
+    await baby.edit_text(f"**❖ ռᴀᴍᴏ Ᏸᴜᴅᴅʜᴀʏᴀ 🚩, {message.from_user.mention} 🙏**")
     await asyncio.sleep(1)
     await baby.delete()
 
