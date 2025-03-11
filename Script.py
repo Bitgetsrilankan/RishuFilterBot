@@ -32,9 +32,9 @@ class script(object):
 ● ɪ ʜᴧᴠє ᴘꝛєϻɪυϻ ғєᴧᴛυꝛєs
 ● ɪ ʜᴧᴠє ᴧɪ ɪηᴛєɢʀᴧᴛɪση
 ───────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ <a href=https://t.me/ur_rishu_143>ʀɪsʜυ υᴘᴅᴧᴛє</a> 
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ <a href=https://t.me/ur_support07>ʀɪsʜυ υᴘᴅᴧᴛє</a>
-❖ ʀєᴧʟ σᴡηєʀ ➥ <a href=https://t.me/RishuCoder>ʀɪsʜυ </a>
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ <a href=https://t.me/LKFilmBotss>ʙᴏᴛs υᴘᴅᴧᴛє</a> 
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ <a href=https://t.me/LKFilm_Group>ʙᴏᴛs υᴘᴅᴧᴛє</a>
+❖ ʀєᴧʟ σᴡηєʀ ➥ <a href=https://t.me/Cader_r>ᴛʜᴀʀᴜsʜᴀ</a>
 ───────────────────────
 ❖ ᴄʟɪᴄᴋ ση ᴛʜє ʜєʟᴩ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ
     ᴧʙσυᴛ ϻʏ ϻσᴅυʟєs ᴧηᴅ ᴄσϻϻᴧηᴅs...!
