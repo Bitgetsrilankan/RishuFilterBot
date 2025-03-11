@@ -1838,13 +1838,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-                InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url=CHNL_LNK)
+                InlineKeyboardButton('˹ sᴇᴀʀᴄʜ ˼', switch_inline_query_current_chat=''),
+                InlineKeyboardButton('˹ υᴘᴅᴧᴛєs ˼', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('Hᴇʟᴘ 🕸️', callback_data='help'),
-                InlineKeyboardButton('Aʙᴏᴜᴛ ✨', callback_data='about')
+                InlineKeyboardButton('˹ ʜᴇʟᴘ ˼', callback_data='help'),
+                InlineKeyboardButton('˹ ᴀʙᴏᴜᴛ ˼', callback_data='about')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🧷 Cʀᴇᴀᴛᴇ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ', callback_data='clone')])
@@ -1942,7 +1942,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('˹ υᴘᴅᴧᴛєs ˼', url="https://t.me/nenobots")
+            InlineKeyboardButton('˹ υᴘᴅᴧᴛєs ˼', url="https://t.me/LKFilmBotss")
         ],[
             InlineKeyboardButton('⌯ ʜᴏᴍᴇ ⌯', callback_data='start'),
             InlineKeyboardButton('⌯ ᴄʟσsє ⌯', callback_data='close_data')
