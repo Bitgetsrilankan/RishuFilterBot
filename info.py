@@ -15,7 +15,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7835061391:AAH824yWxHKSuX55DY6rkZrZTUDLRVF
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://i.postimg.cc/mZJDwTwC/GAEJEMWBPEHUXRB.jpg https://graph.org/file/3a400f1f32fc381913061.jpg https://graph.org/file/67fde88d8c3aa8327d363.jpg https://graph.org/file/69ba894371860cd22d92e.jpg https://graph.org/file/f76fd86d1936d45a63c64.jpg https://graph.org/file/a13e9733afdad69720d67.jpg https://graph.org/file/25e215c4602b241b66829.jpg https://graph.org/file/5a285fc0124657c7b7a0b.jpg https://graph.org/file/a0893f3a1e6777f6de821.jpg https://graph.org/file/f86b71018196c5cfe7344.jpg https://graph.org/file/a00f89c5aa75735896e0f.jpg https://graph.org/file/db277a7810a3f65d92f22.jpg https://graph.org/file/692e89f8fe20554e7a139.jpg https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg https://graph.org/file/84e84ff778b045879d24f.jpg https://graph.org/file/5b344a55f3d5199b63fa5.jpg https://graph.org/file/84de4b440300297a8ecb3.jpg https://graph.org/file/0bfe29d15e918917d1305.jpg https://graph.org/file/37248e7bdff70c662a702.jpg https://graph.org/file/d6360613d0fa7a9d2f90b.jpg https://graph.org/file/ed92cada78099c9c3a4f7.jpg')).split()
+PICS = (environ.get('PICS', 'http://hoster.rf.gd/uploads/IMG_20250311_165328_534.jpg http://hoster.rf.gd/uploads/maxresdefault.jpg http://hoster.rf.gd/uploads/IMG_20250311_165709_544.jpg http://hoster.rf.gd/uploads/IMG_20250311_165718_686.jpg http://hoster.rf.gd/uploads/IMG_20250311_165731_197.jpg')).split()
 
 
 # Admins & Users
