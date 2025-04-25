@@ -9,9 +9,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Rishu_movie_bot')
-API_ID = int(environ.get('API_ID', '24870301'))
-API_HASH = environ.get('API_HASH', '5bcc6d5a90ad19da0989d635a36942af')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7641362238:AAFOMADtBkG27dh5tyOo3Kth9ixX9sfmVvY")
+API_ID = int(environ.get('API_ID', '248'))
+API_HASH = environ.get('API_HASH', '5bcc6d5a90ad19')
+BOT_TOKEN = environ.get('BOT_TOKEN', "🖕")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
