@@ -9,8 +9,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Rishu_movie_bot')
-API_ID = int(environ.get('API_ID', '248'))
-API_HASH = environ.get('API_HASH', '5bcc6d5a90ad19')
+API_ID = int(environ.get('API_ID', '25274965'))
+API_HASH = environ.get('API_HASH', 'd1af246ebbfb198fe438cae67372abf1')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7641362238:AAHbSJamV-koksbJU1ik6Z20CIF3zw_6Boo")
 
 
